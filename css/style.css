@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Ubuntu:wght@700&display=swap');
+
+*{
+	font-family:'Open sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.ubuntuB {
+
+font-family:'Ubuntu', sans-serif;
+font-weight: bold;
+
+}
+
+#top_nav {
+
+	font-family:'Open sans', sans-serif;
+	background-color: #587a96;
+	width: 100%;
+}
+
+#top_nav ul {
+
+	display: inline;
+
+	}
+
+
+#top_nav ul li {
+
+	display: inline;
+	margin: 0 0.50em;
+	list-style: none;
+
+	}
+
+#top_nav ul li a {
+
+	color: white;
+	text-decoration: none;
+
+	}
+
+header {
+
+	display: flex;
+	display direction: row;
+
+}
+
+#logo {
+
+	display: inline;
+
+}
+
+#banner {
+	display: inline;
+	width: 80em;
+	max-width: 800px;
+	object-fit: contain;
+}
+
+.navbarBg {
+
+	background-image: url(img/main-menu-background.png);
+	background-repeat: no-repeat;
+}
+
+.roundCorner {
+
+	border-radius: 1.5rem;
+}
+
+.uneteCard {
+
+	display: inline-block;
+	width: 45rem;
+	position: relative;
+	left: 10%;
+	margin: 0 2rem;
+	vertical-align: top;
+
+}
+
+
+.tarjeta {
+
+vertical-align: top;
+text-align: center;
+
+}
+
+
+.img_tarjeta {
+
+	padding: 1rem;
+
+}
+
+
+
+.inBlock {
+
+	display: inline-block;
+
+}
+
+.centrar__Element {
+
+	text-align: center;
+}
+
+.title__BigVSpace--center {
+
+	padding: 10em 0;
+
+}
+
+.title__MDVSpace--center {
+
+	padding: 2.5em 0;
+
+}
+
+.title__SMVSpace--center {
+
+	padding: 1.5em 0;
+
+}
+
+.sepHor {
+
+	margin: 0 2em;
+}
+
+.separator__BigSpace {
+
+	height: 30em;
+
+}
+
+
+.contentLeft {
+
+	text-align: left, !important; 
+	text-align: justify;
+}
+
+.text__SMVHSpace {
+
+	padding: 1em 1em;
+
+}
+
+.text__MDVHSpace {
+
+	padding: 2em 2em;
+
+}
+
+.sep_VMD {
+
+	margin: 1.5em 0em;
+}
+
+
+
+button: hover {
+
+	background-color: grey;
+}
+
+.boxS {
+  box-shadow: 2px 3px 8px 4px rgba(0, 0, 0, 0.6); }
+
+
+
+
+form ul li {
+
+	font-family: 'Open Sans',sans-serif;
+	font-size: 1.4rem;
+	padding: 1rem 1rem;
+	list-style: none;
+}
+
+label	{
+
+	margin: 0 1rem ;
+}
+
+.box__PrCards {
+ 
+ padding: 2em 3em;
+ border-radius: 1em;
+
+}
+
+
+.tarjeta ol li {
+
+	color: white;
+	font-family: 'Open Sans' , sans-serif;
+	font-weight: 300;
+	font-size:1em ;
+	list-style: none;
+	padding: 1em 0;
+}
+
+
+.roundCorner {
+
+	border-radius: 1.5rem;
+}
+
+
+.bgBronce {
+
+	background-color: #A55219 ;
+}
+
+
+.colorBrz {
+
+	color: #A55219;
+}
+
+.bgPlata {
+
+
+	background-color: #616161 ;
+}
+
+.colorPlt {
+
+	color: #616161;
+}
+
+
+
+.bg_Oro {
+
+
+	background-color: #C7AE36;
+}
+
+.colorOro {
+
+	color: #C7AE36;
+}
+
+.dkColor {
+
+	color: #000;
+}
+
+
+.colorBlue {
+
+	color: #003658;
+
+}
+
+.colorWt {
+
+	color: white;
+}
+
+.fontS {
+
+	font-size: 2rem;
+}
+
+.pBig {
+
+	font-size: 1.5rem;
+
+}
+
+#buttonsTable {
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+
+}
+
+.hb1 {
+
+	height: 4em ;
+}
+
+footer	{
+
+	
+	color: white;
+	background-image: url(../img/fondo-padel-tarjeta-descuento-partidas-ofertas-amigos.jpg);
+	background-repeat: no-repeat;
+	
+
+}
+
+.footerColum {
+
+
+	padding: 1em;
+	margin: 0 1eem;
+	
+
+}
+
+nav ul li {
+	text-decoration: none;
+}
+
+#features1 {
+text-align: right;
+color: white;
+background-image: url(../img/ventajas-padel-socios-padel-pass-card.jpg);
+background-repeat: no-repeat;
+padding-left: 3em;
+padding-right: 1em;
+padding-top: 1em;
+padding-bottom: 1em;
+
+
+}
+
