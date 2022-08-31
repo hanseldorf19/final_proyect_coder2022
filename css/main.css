@@ -8084,6 +8084,9 @@ form ul li {
     #features1 ul li {
       margin: 1em 0.2em; }
 
+body {
+  overflow-x: hidden; }
+
 footer ul li {
   margin: 0.25 0rem;
   list-style: none; }
@@ -8093,3 +8096,19 @@ footer ul li {
     font-weight: 400;
     font-size: 2rem;
     padding: 0 1rem; }
+
+    footer	{
+	
+      color: white;
+      background-image: url(img/fondo-padel-tarjeta-descuento-partidas-ofertas-amigos.jpg);
+      background-repeat: no-repeat;
+      
+    }
+    
+    .footer2 {
+    
+      color: white;
+      background-image: url(../img/fondo-padel-tarjeta-descuento-partidas-ofertas-amigos.jpg);
+      background-repeat: no-repeat;
+    
+    }
